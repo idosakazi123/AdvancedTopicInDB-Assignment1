@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@132.72.65.216">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.9">
+    <root id="1">
+      <ServerVersion>11.2.0.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="SAKAZI">
+      <ObjectId>578</ObjectId>
+      <IntrospectionTimestamp>2018-11-23.21:03:37</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-11-22.15:41:07</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-23.21:03:36</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="SYSMAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="MGMT_VIEW">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="EMAIL">
+      <ObjectId>466</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="TZURIELH">
+      <ObjectId>467</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="NOGAAG">
+      <ObjectId>468</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="YONICOH">
+      <ObjectId>469</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="PAGEY">
+      <ObjectId>470</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="ELINORSH">
+      <ObjectId>471</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="CHENNAH">
+      <ObjectId>472</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="NOALEMBE">
+      <ObjectId>473</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="GILMAMA">
+      <ObjectId>474</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="SHAYTAL">
+      <ObjectId>475</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SHIMRITP">
+      <ObjectId>476</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="SHIRFR">
+      <ObjectId>477</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="RONMICHA">
+      <ObjectId>478</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="YAKIRHE">
+      <ObjectId>479</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="ALUSHA">
+      <ObjectId>480</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="KASHICH">
+      <ObjectId>481</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="ZIVTO">
+      <ObjectId>482</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="ADARV">
+      <ObjectId>483</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="HAZONS">
+      <ObjectId>484</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="LINOYKAL">
+      <ObjectId>485</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="ROSENTZT">
+      <ObjectId>486</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="STAVLUT">
+      <ObjectId>487</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="CHITAYAT">
+      <ObjectId>488</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="AZRANMO">
+      <ObjectId>489</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="CARMELAD">
+      <ObjectId>490</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="LIRONSEL">
+      <ObjectId>491</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="BEYGEL">
+      <ObjectId>492</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="LERASHT">
+      <ObjectId>493</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="ALON0">
+      <ObjectId>494</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="SHOGAN">
+      <ObjectId>495</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="LIRONAVR">
+      <ObjectId>496</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="DARNET">
+      <ObjectId>497</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="STAVYANO">
+      <ObjectId>498</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="SHKEDISA">
+      <ObjectId>499</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="MAAYANEL">
+      <ObjectId>500</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="ADIOZ">
+      <ObjectId>501</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="HASSIDIM">
+      <ObjectId>502</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="TALSHKO">
+      <ObjectId>503</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="GALGUE">
+      <ObjectId>504</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="NACHAMNI">
+      <ObjectId>505</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="HANOUNS">
+      <ObjectId>506</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="KOBIS">
+      <ObjectId>507</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="MASSADN">
+      <ObjectId>508</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="ADIRON">
+      <ObjectId>509</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="AMITPE">
+      <ObjectId>510</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="ZAMRI">
+      <ObjectId>511</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="KULIKR">
+      <ObjectId>512</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="SHAHAR3">
+      <ObjectId>513</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="BARELSHA">
+      <ObjectId>514</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="ORBAU">
+      <ObjectId>515</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="GALEDE">
+      <ObjectId>516</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="EITANSHT">
+      <ObjectId>517</ObjectId>
+    </schema>
+    <schema id="78" parent="1" name="IDOSOL">
+      <ObjectId>518</ObjectId>
+    </schema>
+    <schema id="79" parent="1" name="ANATZAL">
+      <ObjectId>519</ObjectId>
+    </schema>
+    <schema id="80" parent="1" name="NASIROV">
+      <ObjectId>520</ObjectId>
+    </schema>
+    <schema id="81" parent="1" name="GILADSHI">
+      <ObjectId>521</ObjectId>
+    </schema>
+    <schema id="82" parent="1" name="RANTS">
+      <ObjectId>522</ObjectId>
+    </schema>
+    <schema id="83" parent="1" name="MORTZU">
+      <ObjectId>523</ObjectId>
+    </schema>
+    <schema id="84" parent="1" name="SERNOV">
+      <ObjectId>524</ObjectId>
+    </schema>
+    <schema id="85" parent="1" name="BARSHAI">
+      <ObjectId>525</ObjectId>
+    </schema>
+    <schema id="86" parent="1" name="LIORBENE">
+      <ObjectId>526</ObjectId>
+    </schema>
+    <schema id="87" parent="1" name="NOASCHWA">
+      <ObjectId>527</ObjectId>
+    </schema>
+    <schema id="88" parent="1" name="LIORPE">
+      <ObjectId>528</ObjectId>
+    </schema>
+    <schema id="89" parent="1" name="SEKLI">
+      <ObjectId>529</ObjectId>
+    </schema>
+    <schema id="90" parent="1" name="AVIVLITM">
+      <ObjectId>530</ObjectId>
+    </schema>
+    <schema id="91" parent="1" name="DAVIDOZ">
+      <ObjectId>531</ObjectId>
+    </schema>
+    <schema id="92" parent="1" name="MICHALWE">
+      <ObjectId>532</ObjectId>
+    </schema>
+    <schema id="93" parent="1" name="SRORMOSH">
+      <ObjectId>533</ObjectId>
+    </schema>
+    <schema id="94" parent="1" name="POTASHK">
+      <ObjectId>534</ObjectId>
+    </schema>
+    <schema id="95" parent="1" name="SAGYTU">
+      <ObjectId>535</ObjectId>
+    </schema>
+    <schema id="96" parent="1" name="LEVYBENY">
+      <ObjectId>536</ObjectId>
+    </schema>
+    <schema id="97" parent="1" name="ALONLIO">
+      <ObjectId>537</ObjectId>
+    </schema>
+    <schema id="98" parent="1" name="NAHMIASD">
+      <ObjectId>538</ObjectId>
+    </schema>
+    <schema id="99" parent="1" name="YOTAMIN">
+      <ObjectId>539</ObjectId>
+    </schema>
+    <schema id="100" parent="1" name="ROTEMSHP">
+      <ObjectId>540</ObjectId>
+    </schema>
+    <schema id="101" parent="1" name="POLLME">
+      <ObjectId>541</ObjectId>
+    </schema>
+    <schema id="102" parent="1" name="DANGL">
+      <ObjectId>542</ObjectId>
+    </schema>
+    <schema id="103" parent="1" name="HILAYAR">
+      <ObjectId>543</ObjectId>
+    </schema>
+    <schema id="104" parent="1" name="DANAFELD">
+      <ObjectId>544</ObjectId>
+    </schema>
+    <schema id="105" parent="1" name="NOYCOHE">
+      <ObjectId>545</ObjectId>
+    </schema>
+    <schema id="106" parent="1" name="INZUAD">
+      <ObjectId>546</ObjectId>
+    </schema>
+    <schema id="107" parent="1" name="BEHNAMD">
+      <ObjectId>547</ObjectId>
+    </schema>
+    <schema id="108" parent="1" name="LERERB">
+      <ObjectId>548</ObjectId>
+    </schema>
+    <schema id="109" parent="1" name="YAELHOC">
+      <ObjectId>549</ObjectId>
+    </schema>
+    <schema id="110" parent="1" name="LIDORG">
+      <ObjectId>550</ObjectId>
+    </schema>
+    <schema id="111" parent="1" name="FEFER">
+      <ObjectId>551</ObjectId>
+    </schema>
+    <schema id="112" parent="1" name="ZOHARAVR">
+      <ObjectId>552</ObjectId>
+    </schema>
+    <schema id="113" parent="1" name="FABINE">
+      <ObjectId>553</ObjectId>
+    </schema>
+    <schema id="114" parent="1" name="LEED">
+      <ObjectId>554</ObjectId>
+    </schema>
+    <schema id="115" parent="1" name="NIRMOV">
+      <ObjectId>555</ObjectId>
+    </schema>
+    <schema id="116" parent="1" name="SOFIADI">
+      <ObjectId>556</ObjectId>
+    </schema>
+    <schema id="117" parent="1" name="NEHEMYA">
+      <ObjectId>557</ObjectId>
+    </schema>
+    <schema id="118" parent="1" name="MAYAKRE">
+      <ObjectId>558</ObjectId>
+    </schema>
+    <schema id="119" parent="1" name="YUVALZEH">
+      <ObjectId>559</ObjectId>
+    </schema>
+    <schema id="120" parent="1" name="YOSEFMEL">
+      <ObjectId>560</ObjectId>
+    </schema>
+    <schema id="121" parent="1" name="AMITMAG">
+      <ObjectId>561</ObjectId>
+    </schema>
+    <schema id="122" parent="1" name="RONNIEMI">
+      <ObjectId>562</ObjectId>
+    </schema>
+    <schema id="123" parent="1" name="ABUAJAJ">
+      <ObjectId>563</ObjectId>
+    </schema>
+    <schema id="124" parent="1" name="BENIVRE">
+      <ObjectId>564</ObjectId>
+    </schema>
+    <schema id="125" parent="1" name="RAVEDAN">
+      <ObjectId>565</ObjectId>
+    </schema>
+    <schema id="126" parent="1" name="ROTEMYAR">
+      <ObjectId>566</ObjectId>
+    </schema>
+    <schema id="127" parent="1" name="DIEI">
+      <ObjectId>567</ObjectId>
+    </schema>
+    <schema id="128" parent="1" name="INBARRO">
+      <ObjectId>568</ObjectId>
+    </schema>
+    <schema id="129" parent="1" name="MAXSH">
+      <ObjectId>569</ObjectId>
+    </schema>
+    <schema id="130" parent="1" name="RINAG">
+      <ObjectId>570</ObjectId>
+    </schema>
+    <schema id="131" parent="1" name="YAGILO">
+      <ObjectId>571</ObjectId>
+    </schema>
+    <schema id="132" parent="1" name="HADARHAZ">
+      <ObjectId>572</ObjectId>
+    </schema>
+    <schema id="133" parent="1" name="AVEVANES">
+      <ObjectId>573</ObjectId>
+    </schema>
+    <schema id="134" parent="1" name="NOGAHM">
+      <ObjectId>574</ObjectId>
+    </schema>
+    <schema id="135" parent="1" name="TALBENSE">
+      <ObjectId>575</ObjectId>
+    </schema>
+    <schema id="136" parent="1" name="DORZIO">
+      <ObjectId>576</ObjectId>
+    </schema>
+    <schema id="137" parent="1" name="ZEBENH">
+      <ObjectId>577</ObjectId>
+    </schema>
+    <schema id="138" parent="1" name="NIRZAGA">
+      <ObjectId>579</ObjectId>
+    </schema>
+    <schema id="139" parent="1" name="NETASAV">
+      <ObjectId>580</ObjectId>
+    </schema>
+    <schema id="140" parent="1" name="SHACHARO">
+      <ObjectId>581</ObjectId>
+    </schema>
+    <schema id="141" parent="1" name="ELSHAC">
+      <ObjectId>582</ObjectId>
+    </schema>
+    <schema id="142" parent="1" name="AVIVTU">
+      <ObjectId>583</ObjectId>
+    </schema>
+    <schema id="143" parent="1" name="NIG">
+      <ObjectId>584</ObjectId>
+    </schema>
+    <schema id="144" parent="1" name="ASAFWLO">
+      <ObjectId>585</ObjectId>
+    </schema>
+    <schema id="145" parent="1" name="RAZYID">
+      <ObjectId>586</ObjectId>
+    </schema>
+    <schema id="146" parent="1" name="EDENFI">
+      <ObjectId>587</ObjectId>
+    </schema>
+    <schema id="147" parent="1" name="DORDAVID">
+      <ObjectId>588</ObjectId>
+    </schema>
+    <schema id="148" parent="1" name="DRORSIM">
+      <ObjectId>589</ObjectId>
+    </schema>
+    <schema id="149" parent="1" name="STOMER">
+      <ObjectId>590</ObjectId>
+    </schema>
+    <schema id="150" parent="1" name="MAORREU">
+      <ObjectId>591</ObjectId>
+    </schema>
+    <schema id="151" parent="1" name="SHAKEDYO">
+      <ObjectId>592</ObjectId>
+    </schema>
+    <schema id="152" parent="1" name="WILDSHA">
+      <ObjectId>593</ObjectId>
+    </schema>
+    <schema id="153" parent="1" name="RONSHMUL">
+      <ObjectId>594</ObjectId>
+    </schema>
+    <schema id="154" parent="1" name="OFIRDVI">
+      <ObjectId>595</ObjectId>
+    </schema>
+    <schema id="155" parent="1" name="SHEINBEY">
+      <ObjectId>596</ObjectId>
+    </schema>
+    <schema id="156" parent="1" name="SIVANREJ">
+      <ObjectId>597</ObjectId>
+    </schema>
+    <schema id="157" parent="1" name="SHANB">
+      <ObjectId>598</ObjectId>
+    </schema>
+    <schema id="158" parent="1" name="INBALROS">
+      <ObjectId>599</ObjectId>
+    </schema>
+    <schema id="159" parent="1" name="EYALAR">
+      <ObjectId>600</ObjectId>
+    </schema>
+    <schema id="160" parent="1" name="KARINMI">
+      <ObjectId>601</ObjectId>
+    </schema>
+    <schema id="161" parent="1" name="ANATOLYI">
+      <ObjectId>602</ObjectId>
+    </schema>
+    <schema id="162" parent="1" name="SARFATYL">
+      <ObjectId>603</ObjectId>
+    </schema>
+    <schema id="163" parent="1" name="BATYAZ">
+      <ObjectId>604</ObjectId>
+    </schema>
+    <schema id="164" parent="1" name="NEU">
+      <ObjectId>605</ObjectId>
+    </schema>
+    <schema id="165" parent="1" name="SHAKEDEY">
+      <ObjectId>606</ObjectId>
+    </schema>
+    <schema id="166" parent="1" name="LAADAN">
+      <ObjectId>607</ObjectId>
+    </schema>
+    <schema id="167" parent="1" name="NOYBENSH">
+      <ObjectId>608</ObjectId>
+    </schema>
+    <schema id="168" parent="1" name="RAVIDBE">
+      <ObjectId>609</ObjectId>
+    </schema>
+    <schema id="169" parent="1" name="ZAKSG">
+      <ObjectId>610</ObjectId>
+    </schema>
+    <schema id="170" parent="1" name="ILANAMOR">
+      <ObjectId>611</ObjectId>
+    </schema>
+    <schema id="171" parent="1" name="BARONYAH">
+      <ObjectId>612</ObjectId>
+    </schema>
+    <schema id="172" parent="1" name="NEVOIT">
+      <ObjectId>613</ObjectId>
+    </schema>
+    <schema id="173" parent="1" name="HOURISH">
+      <ObjectId>614</ObjectId>
+    </schema>
+    <schema id="174" parent="1" name="SHITRITG">
+      <ObjectId>615</ObjectId>
+    </schema>
+    <schema id="175" parent="1" name="TALSHEMT">
+      <ObjectId>616</ObjectId>
+    </schema>
+    <schema id="176" parent="1" name="HILAT">
+      <ObjectId>617</ObjectId>
+    </schema>
+    <schema id="177" parent="1" name="BANUEL">
+      <ObjectId>618</ObjectId>
+    </schema>
+    <schema id="178" parent="1" name="LIORKH">
+      <ObjectId>619</ObjectId>
+    </schema>
+    <schema id="179" parent="1" name="TIARY">
+      <ObjectId>620</ObjectId>
+    </schema>
+    <schema id="180" parent="1" name="GILR">
+      <ObjectId>621</ObjectId>
+    </schema>
+    <schema id="181" parent="1" name="GIGA">
+      <ObjectId>622</ObjectId>
+    </schema>
+    <schema id="182" parent="1" name="SAKAZIS">
+      <ObjectId>623</ObjectId>
+    </schema>
+    <schema id="183" parent="1" name="ASSAFNA">
+      <ObjectId>624</ObjectId>
+    </schema>
+    <schema id="184" parent="1" name="NADAVGRI">
+      <ObjectId>625</ObjectId>
+    </schema>
+    <schema id="185" parent="1" name="BARTALD">
+      <ObjectId>626</ObjectId>
+    </schema>
+    <schema id="186" parent="1" name="NOAMMOSC">
+      <ObjectId>627</ObjectId>
+    </schema>
+    <schema id="187" parent="1" name="ORANROZ">
+      <ObjectId>628</ObjectId>
+    </schema>
+    <schema id="188" parent="1" name="HAZUTY">
+      <ObjectId>629</ObjectId>
+    </schema>
+    <schema id="189" parent="1" name="RONITKI">
+      <ObjectId>630</ObjectId>
+    </schema>
+    <schema id="190" parent="1" name="SERGAYEN">
+      <ObjectId>631</ObjectId>
+    </schema>
+    <schema id="191" parent="1" name="KREMIANS">
+      <ObjectId>632</ObjectId>
+    </schema>
+    <table id="192" parent="2" name="IDO">
+      <ObjectId>219805</ObjectId>
+      <CreatedTimestamp>2018-11-23.21:03:36</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-23.21:03:36</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="193" parent="2" name="MEDIAITEMS">
+      <ObjectId>219671</ObjectId>
+      <CreatedTimestamp>2018-11-22.15:41:07</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-22.16:29:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="194" parent="2" name="SIMILARITY">
+      <ObjectId>219673</ObjectId>
+      <CreatedTimestamp>2018-11-22.16:03:15</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-22.16:03:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <routine id="195" parent="2" name="MAXIMALDISTANCE">
+      <ObjectId>219676</ObjectId>
+      <RoutineKind>function</RoutineKind>
+      <DependsOnIds>4763,219671</DependsOnIds>
+      <CreatedTimestamp>2018-11-22.17:01:52</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-22.17:01:52</ModifiedTimestamp>
+    </routine>
+    <routine id="196" parent="2" name="SIMCALCULATION">
+      <ObjectId>219677</ObjectId>
+      <RoutineKind>function</RoutineKind>
+      <DependsOnIds>4763,219671</DependsOnIds>
+      <CreatedTimestamp>2018-11-22.17:15:32</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-22.17:15:32</ModifiedTimestamp>
+    </routine>
+    <column id="197" parent="192" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="198" parent="193" name="MID">
+      <Position>1</Position>
+      <DataType>NUMBER(9 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="199" parent="193" name="TITLE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(200 byte)|0s</DataType>
+    </column>
+    <column id="200" parent="193" name="PROD_YEAR">
+      <Position>3</Position>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <column id="201" parent="193" name="TITLE_LENGTH">
+      <Position>4</Position>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <index id="202" parent="193" name="MEDIAITEMS_PK">
+      <ObjectId>219672</ObjectId>
+      <CreatedTimestamp>2018-11-22.15:41:07</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-22.15:41:07</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>MID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="203" parent="193" name="MEDIAITEMS_PK">
+      <ModifiedTimestamp>2018-11-22.15:41:07</ModifiedTimestamp>
+      <ColNames>MID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>MEDIAITEMS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="204" parent="193" name="AUTOINCREMENT">
+      <ObjectId>219675</ObjectId>
+      <CreatedTimestamp>2018-11-22.16:29:53</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-22.16:29:53</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="205" parent="194" name="MID1">
+      <Position>1</Position>
+      <DataType>NUMBER(9 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="206" parent="194" name="MID2">
+      <Position>2</Position>
+      <DataType>NUMBER(9 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="207" parent="194" name="SIMILARITY">
+      <Position>3</Position>
+      <DataType>FLOAT(*)|0s</DataType>
+    </column>
+    <index id="208" parent="194" name="SIMILARITY_PK">
+      <ObjectId>219674</ObjectId>
+      <CreatedTimestamp>2018-11-22.16:03:15</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-22.16:03:15</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>MID1
+MID2</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="209" parent="194" name="SIMILARITY_PK">
+      <ModifiedTimestamp>2018-11-22.16:03:15</ModifiedTimestamp>
+      <ColNames>MID1
+MID2</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SIMILARITY_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="210" parent="194" name="MID1MID_FK">
+      <ModifiedTimestamp>2018-11-22.16:03:15</ModifiedTimestamp>
+      <ColNames>MID1</ColNames>
+      <RefSchemaName>SAKAZI</RefSchemaName>
+      <RefTableName>MEDIAITEMS</RefTableName>
+      <RefKeyName>MEDIAITEMS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="211" parent="194" name="MID2MID_FK">
+      <ModifiedTimestamp>2018-11-22.16:03:15</ModifiedTimestamp>
+      <ColNames>MID2</ColNames>
+      <RefSchemaName>SAKAZI</RefSchemaName>
+      <RefTableName>MEDIAITEMS</RefTableName>
+      <RefKeyName>MEDIAITEMS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <argument id="212" parent="195">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="213" parent="196">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>FLOAT|0s</DataType>
+    </argument>
+    <argument id="214" parent="196" name="MID1">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="215" parent="196" name="MID2">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="216" parent="196" name="MAXIMAL_DISTANCE">
+      <Position>3</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
