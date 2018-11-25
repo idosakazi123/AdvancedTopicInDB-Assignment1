@@ -30,7 +30,7 @@ public class Assignment {
     private boolean connectDB(){
 
         try{
-            if(this.connectionDB == null){
+            if(this.connectionDB == null || this.connectionDB.isClosed()){
                 Class.forName("oracle.jdbc.driver.OracleDriver");
                 this.connectionDB = DriverManager.getConnection(this.connection,this.username,this.password);
                 return true;
@@ -108,7 +108,6 @@ public class Assignment {
         Integer maximalDis = getMaximalDis();
 
         //check the for if it work
-
         for (int i = 0; i <midList.size()-1 ; i++) {
             for (int j = i+1; j < midList.size() ; j++) {
                 Double similarityCalc =  getSimilarityCalc(i,j,maximalDis);
@@ -123,12 +122,9 @@ public class Assignment {
         List<Integer> midList = new ArrayList<>();
         PreparedStatement ps = null;
         try{
-            //check if the query work you need to delete it!!!
-            //String query = "SELECT MID from MEDIAITEMS";
             ps = connectionDB.prepareStatement("SELECT MID from MEDIAITEMS");
             ResultSet rs = ps.executeQuery();
             while(rs.next()) {
-                //check if this work !!!!
                 midList.add(Math.toIntExact(rs.getLong("MID"))) ;
             }
             rs.close();
@@ -154,7 +150,6 @@ public class Assignment {
         Integer maximalDis = null;
         CallableStatement cs = null;
         try{
-            // Need to check this query !!!
             cs = connectionDB.prepareCall("{? = call MAXIMALDISTANCE()}");
             cs.registerOutParameter(1,OracleTypes.NUMBER);
             cs.execute();
@@ -178,7 +173,6 @@ public class Assignment {
         Double similarityCalc = null ;
         CallableStatement cs = null;
         try{
-            // Need to check this query !!!
             cs = connectionDB.prepareCall("{? = call SIMCALCULATION(?,?,?)}");
             cs.setLong(4,maximalDis);
             cs.setLong(3,mid2);
@@ -204,8 +198,6 @@ public class Assignment {
         connectDB();
         PreparedStatement ps = null;
         try{
-            //check if the query work you need to delete it!!!
-            //String query = "INSERT INTO SIMILARITY VALUES(?,?,?)";
             ps = connectionDB.prepareStatement("INSERT INTO SIMILARITY VALUES(?,?,?)");
             ps.setDouble(3,similarityCalc);
             ps.setLong(1,mid1);
@@ -239,7 +231,6 @@ public class Assignment {
         Map<String,Double> simMidMap = new LinkedHashMap<>();
         PreparedStatement ps = null;
         try{
-            //check if query works
             ps = connectionDB.prepareStatement("SELECT MEDIAITEMS.TITLE AS TITLE, SIMILARITY.MID2, SIMILARITY.SIMILARITY AS SIM FROM SIMILARITY INNER JOIN MEDIAITEMS on SIMILARITY.MID2 = MEDIAITEMS.MID WHERE MID1=? ORDER BY SIMILARITY ASC");
             ps.setLong(1,mid);
             ResultSet rs = ps.executeQuery();

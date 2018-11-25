@@ -8,6 +8,9 @@ public class Main {
         String password = "abcd";
         Assignment ass = new Assignment(connection,username,password);
         String filePath ="C:\\Users\\Idosakazi\\IdeaProjects\\Ex3\\src\\films.csv";
-        ass.fileToDataBase(filePath);
+        //
+        // ass.fileToDataBase(filePath);
+        //ass.calculateSimilarity();
+        //ass.printSimilarityItems((long)0);
     }
 }
